@@ -1,0 +1,21 @@
+#take_snap:hover{
+    background-color: purple;
+}
+#take_snap{
+background-color: blueviolet;
+color:white;
+border-width: 3px;
+border-color: pink;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 438px blue;}
+    to{box-shadow: 1px 1px 38px magenta;}
+
+}
